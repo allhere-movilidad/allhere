@@ -10,9 +10,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -24,8 +22,15 @@
         "projectId": "68d1c4c8-076a-4f73-9252-251ac8090656"
       }
     },
+    "updates": {
+      "enabled": false
+    },
     "plugins": [
-      "expo-audio"
+      "expo-audio",
+      "expo-router",
+      "expo-splash-screen",
+      "expo-status-bar",
+      "expo-web-browser"
     ]
   }
 }
